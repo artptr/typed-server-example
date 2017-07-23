@@ -1,0 +1,35 @@
+{
+  "name": "typed-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/app.ts",
+    "watch": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.15",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.2.1",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-router": "^7.0.22",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-multer": "^1.0.1",
+    "koa-router": "^7.2.1",
+    "mysql": "^2.13.0",
+    "reflect-metadata": "^0.1.10",
+    "routing-controllers": "^0.7.1",
+    "typedi": "^0.5.2",
+    "typeorm": "0.0.11",
+    "typeorm-routing-controllers-extensions": "0.0.10",
+    "typeorm-typedi-extensions": "0.0.12"
+  }
+}
